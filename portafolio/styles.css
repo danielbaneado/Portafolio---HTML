@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.portafolio{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-direction: column;
+}
+img
+{
+    width: 10rem;
+    height: 5rem;
+    margin: 10px 0 0 0;
+    border: solid;
+}
+article{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(images/windows_xp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: left;
+}
