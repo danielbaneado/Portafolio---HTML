@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+    <h1>print("Keloke")</h1>
+        <nav>
+            <div class="navigation">
+                <a class="hover "href="mascotas.html">Mis mascotas</a>
+                <a class="hover "href="https://github.com/danielbaneado">Mi perfil de github</a>
+            </div>
+        </nav>
+</header>
+
+<section class="portafolio">
+    <div class="organize">
+        <h2>Sobre mí</h2>
+        <p>Soy un programador junior con conocimientos en Python, HTML y CSS, centrándome en el desarrollo de juegos que ponen a prueba conocimientos sobre geografía.
+        Además me he inmerso en el mundo laboral desempeñando roles en el área de sistemas. En cuanto a estos proyectos, entre estos juegos se encuentra globle, que va de adivinar
+        el país del día mostrando un mapa interactivo; geogrid, una trivia diaria que usa caracteristicas que abarcan ciertos países en un cuadro 3x3, de modo que se deben adivinar los 9
+        en una cantidad limitada de intentos; y travle, que se basa en hacer un "puente" entre dos países, ingresando países que los conecten por medio de un camino terrestre,
+        teniendo una cantidad de intentos determinada por cuan largo sea el camino entre el país por el que se empieza y el que se debe alcanzar.
+        </p>
+    </div>
+
+    <div >
+        <h2>Proyectos</h2>
+        <h4>Juegos de geografía</h4>
+        <ul class="proyectos">
+            <div class="proyecto">
+                <h4>Globle</h4>
+                <img src="/portafolio/s2/images/globle.webp" alt="Globle">
+                <button class="highlight hover"> <a href="https://globle-game.com">Jugar</a> </button>
+                
+            </div>
+
+            <div class="proyecto">
+                <h4>Geogrid</h4>
+                <img src="/portafolio/s2/images/geogrid2.webp" alt="Geogrid">
+                <button class="highlight hover"> <a href="https://www.geogridgame.com">Jugar</a> </button>
+                
+            </div>
+            
+            <div class="proyecto">
+                <h4>Travle</h4>
+                <img src="/portafolio/s2/images/travle.webp" alt="Travle">
+                <button class="highlight hover"> <a href="https://travle.earth">Jugar</a> </button>
+            </div>
+            
+        </ul>
+    </div>
+        
+    <div class="form">
+        <h2>Contacto</h2>
+        <form>
+            <label>Usuario</label>
+            <div class="campo">
+                <input class="highlight" type="nombre" id="nombre" name="nombre" placeholder="Usuario"/>
+            </div>
+
+            <label>Correo</label>
+            <div class="campo">
+                    <input class="highlight" type="correo" id="correo" name="correo" placeholder="ej: usuario123@gmail.com"/>
+            </div>
+            
+            <label>Teléfono</label>
+            <div class="campo">
+                <input class="highlight" type="teléfono" id="teléfono" name="teléfono" placeholder="XXXXXXXXXX"/>
+            </div>
+
+            <label>Mensaje</label>
+            <div class="campo">
+                <textarea class="highlight" id="mensaje" name="mensaje" placeholder="Deja tu mensaje"></textarea>
+            </div>
+            <button class="highlight">Enviar</button>
+        </form>
+    </div>
+</section>
+</body>
+
+</html>
