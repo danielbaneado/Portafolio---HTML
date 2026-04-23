@@ -120,6 +120,16 @@ nav{
     border-radius: 1rem; 
     padding: 1rem;
 }
+#hidden{
+    margin: 1rem; 
+    padding: 1rem;
+}
+.evento{
+    display: flex; 
+    gap: 1rem;
+    justify-content: center; 
+    align-items: center; 
+}
 @media (max-width: 1024px) {
     .grid, .proyectos{
         grid-template-columns: repeat(2, 1fr);
