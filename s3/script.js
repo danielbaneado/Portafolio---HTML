@@ -1,19 +1,15 @@
 const button= document.getElementById("hidden");
 
-button.addEventListener("click", touch)
+button.addEventListener("mouseenter", touch)
 
+let num= 0;
 function touch() {
-  var boton= document.getElementById("hidden");
-  var img= document.querySelector(".goku");
-  var cont= document.querySelector(".evento");
-  if (boton.innerText=== "Te esquivé") {
-    boton.innerText= "Tocame";
-    img.style.display= "none";
-    
-  } else {
-    boton.innerText= "Te esquivé";
-    img.style.display= "block";
-    cont.style.top = Math.random() * 100 + "%";
-    cont.style.left = Math.random() * 100 + "%";
-  }
+  let boton= document.getElementById("hidden");
+  let img= document.querySelector(".goku");
+  let cont= document.querySelector(".evento");
+  num++;
+  boton.innerText= ("Te esquivé x" + num)
+  img.style.display= "block";
+  cont.style.top = Math.random() * 100 + "%";
+  cont.style.left = Math.random() * 100 + "%";
 }
