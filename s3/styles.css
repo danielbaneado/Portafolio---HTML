@@ -78,6 +78,7 @@ nav{
     background-color: white; 
     padding: 1rem; 
     border-radius: 1rem;
+    position: relative;
 }
 .campo{
     margin: 1rem 0;
@@ -129,6 +130,14 @@ nav{
     gap: 1rem;
     justify-content: center; 
     align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.goku{
+    display: none;
 }
 @media (max-width: 1024px) {
     .grid, .proyectos{
